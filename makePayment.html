@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Monday Project for Module 4">
+    <meta name="keywords" content="Ecommerce site">
+    <meta name="author" content="Monday Abah">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <title>Payment || Ecommerce Project</title>
+    <style>
+        section {
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+        }
+        
+        footer {
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-danger navbar-light">
+        <ul class="nav nav-pills navb">
+            <li class="nav-item">
+                <a class="nav-link active" href="#"> <i class="fa fa-shopping-cart"></i> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="index.html">Home</a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link text-light" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="categories.html">Categories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="login.html">Login</a>
+            </li>
+            <div class="form-inline" action="/action_page.php">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                <button class="btn" type="submit"><i class="fa fa-search"></i> </button>
+            </div>
+
+        </ul>
+
+
+    </nav>
+    <h1 class="text-center m-2 ">Make a Payment</h1>
+    <section class="row mt-5">
+        <form action="#" class="col container ml-5 mt-5">
+            <div class="form-group p-2 ">
+
+                <input type="text" class="form-control" id="name" placeholder="Name: ">
+            </div>
+            <div class="form-group p-2 ">
+
+                <input type="number" class="form-control" id="number" placeholder="Card: **** **** **** ****" maxlength="16">
+            </div>
+            <div class="form-group p-2 ">
+
+                <input type="month" class="form-control" id="expiry" placeholder="MM/YY">
+            </div>
+            <div class="form-group p-2 ">
+
+                <input type="number" class="form-control" id="cvc" placeholder="CVC" maxlength="3">
+            </div>
+            <button type="submit" class="btn btn-danger w-50">Make Payment</button>
+        </form>
+        <div class="col">
+            <div class="card w-75 rounded">
+                <img src="images/market.jpg" class="card-img-top" alt="...">
+                <p class="p-2">Type:</p>
+                <p class="p-2">Price:</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-danger p-3 mt-2 ">
+        <center class=" text-white">
+            <small>All right reserved <i class="fa fa-copyright"></i> Smartmikey 2019 Click On Kaduna</small>
+        </center>
+        <div>
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-google-plus"></i>
+
+        </div>
+    </footer>
+    <div class="clear"></div>
+</body>
+
+</html>
